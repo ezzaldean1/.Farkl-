@@ -310,6 +310,7 @@ const Za7f = [
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
+   .addField('Nabarat Games' ,
    .setThumbnail(message.author.avatarURL) 
   `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
   message.channel.sendEmbed(embed);
