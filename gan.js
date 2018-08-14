@@ -307,7 +307,7 @@ const Za7f = [
  client.on('message', message => {
      
      if (message.author.bot) return;
-   if (message.content.startsWith("rعقاب")) {
+   if (message.content.startsWith("عقاب")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
