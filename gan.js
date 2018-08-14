@@ -4,7 +4,7 @@ client.on('ready', () => {
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
-    client.user.setGame(`Nabrat Server`, "http://twitch.tv/Streammingg")
+    client.user.setGame(`Nabarat Server`, "http://twitch.tv/Streammingg")
 
 });
 
