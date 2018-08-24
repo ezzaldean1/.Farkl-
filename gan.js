@@ -283,3 +283,6 @@ ${prefix}queue - لمعرفة قآئمة التشغيل
    }); 
 
    
+
+
+client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
