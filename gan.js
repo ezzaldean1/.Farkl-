@@ -13,11 +13,11 @@ client.on('ready', () => {
   console.log(' Mo1 Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type fhelp",{type: 'PLAYING'})
+    client.user.setActivity(" Type 69help",{type: 'PLAYING'})
 	
 });
 	
-            var prefix = "f" ;
+            var prefix = "69" ;
 	
 
 /*
@@ -31,7 +31,7 @@ npm install queue
 */
 client.on('message', msg => {
 
-    if (msg.content == 'fplay') {
+    if (msg.content == '69play') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
@@ -235,8 +235,8 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 
-const adminprefix = "f";//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
-const devs = ['477678663387578370'];//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
+const adminprefix = "69";//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
+const devs = ['470500980342128650'];//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
     if (!devs.includes(message.author.id)) return;//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
